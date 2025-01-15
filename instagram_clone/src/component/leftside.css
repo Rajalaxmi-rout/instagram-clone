@@ -1,0 +1,41 @@
+ .leftsidepart{
+    position:fixed;
+} 
+.logopart{
+    width: 120px;
+    height: 32px;
+    margin-left: 25px;
+}
+
+
+.logoimg{
+    width: 100%;
+}
+.navlinkpart{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.navlink{
+    display: flex;
+    border-radius: 5px;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+    &:hover{
+        background-color: #ededed;
+        cursor: pointer;
+    }
+}
+.homelogo{
+    height: 25px;
+    width: 25px;
+    margin-right:20px ;
+    
+
+}
+.navname{
+    font-weight: 700;
+    font-family: sans-serif;
+}
